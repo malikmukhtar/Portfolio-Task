@@ -186,3 +186,21 @@ section {
 footer .fa-heart {
   color: green;
 }
+
+@media (max-width: 440px) {
+  header img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 10px; */
+  }
+
+  nav {
+    font-size: 15px;
+  }
+
+  .skills {
+    padding: 2px;
+  }
+}
