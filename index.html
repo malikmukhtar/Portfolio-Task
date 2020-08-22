@@ -98,6 +98,18 @@
         </li>
       </ul>
     </section>
+    <section class="contact">
+      <div>
+        <h3>Drop ME a line</h3>
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+          <textarea name="message" id="message" cols="30" rows="7"></textarea>
+          <div data-netlify-recaptcha="true"></div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
 
     <!-- Pre Footer -->
     <footer class="footer-pre">
@@ -106,7 +118,7 @@
           Want to Know the happenings in the Dev World <br />
           Subscribe to my NewsLetter
         </p>
-        <form action="" method="post">
+        <form name="contact" method="POST" data-netlify="true">
           <input type="text" placeholder="e-mail" /><button type="button">
             Subscribe
           </button>
@@ -118,6 +130,10 @@
     <footer class="footer">
       Made with <i class="fas fa-heart"> </i> by Malik Mukhtar
     </footer>
+    <script
+      src="//code.tidio.co/ylm7ivfsa1bjixgrjlaqop75dysk2tsf.js"
+      async
+    ></script>
 
     <script
       src="https://kit.fontawesome.com/8786e3a93c.js"

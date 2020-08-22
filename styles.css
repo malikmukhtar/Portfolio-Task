@@ -113,6 +113,51 @@ section {
   font-size: 20px;
 }
 
+.contact {
+  background-color: #002b37;
+  color: white;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.contact div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact div form input {
+  margin: 2px;
+  border-radius: 5px;
+  border: none;
+}
+.contact div form input::placeholder {
+  padding: 5px;
+  font-family: "Baloo Tamma 2", cursive;
+}
+.contact div form input::content {
+  padding: 5px;
+  font-family: "Baloo Tamma 2", cursive;
+}
+.contact div form textarea {
+  margin: 2px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Baloo Tamma 2", cursive;
+}
+.contact div form div {
+  margin: 2px;
+}
+.contact div form button {
+  margin: 2px;
+  border-radius: 5px;
+  border: none;
+  width: 70px;
+  font-weight: bold;
+  font-family: "Baloo Tamma 2", cursive;
+  cursor: pointer;
+}
+
 .footer-pre {
   display: flex;
   align-items: center;
