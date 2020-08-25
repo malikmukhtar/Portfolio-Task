@@ -364,6 +364,7 @@ footer .fa-heart {
 
   nav {
     font-size: 15px;
+    justify-content: center;
   }
 
   .skills {
@@ -376,6 +377,7 @@ footer .fa-heart {
     font-size: 10px;
     font-weight: 200;
     text-align: justify;
+    color: salmon;
   }
 
   .container .inside .tanya img {
@@ -383,9 +385,24 @@ footer .fa-heart {
     height: 125px;
     width: 125px;
     margin-top: -142px;
-    margin-left: -50px;
+    margin-left: 10px;
     -webkit-box-shadow: 10px 10px 20px #ccc;
     box-shadow: 10px 10px 20px #ccc;
     border-radius: 5px;
+  }
+  .container .pattern-bg {
+    display: none;
+  }
+  .container .inside .tanya .navigation {
+    background-color: white;
+    height: 30px;
+    width: 65px;
+    margin-top: -25px;
+    margin-left: 0px;
+    border-radius: 20px;
+  }
+
+  .container .inside .first h3 small {
+    font-size: 10px;
   }
 }
