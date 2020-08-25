@@ -254,10 +254,102 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
 }
 footer .fa-heart {
   color: green;
+}
+
+.container {
+  position: relative;
+  padding-top: 40px;
+  padding-right: 10px;
+  width: 100%;
+  height: 500px;
+  background-color: #002b37;
+  border-top: 1px solid white;
+  z-index: 0;
+}
+
+.container .quotes {
+  position: relative;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+.container .pattern-bg {
+  position: absolute;
+  padding-right: 150px;
+  top: 10;
+  right: 0;
+  height: 400px;
+}
+
+.container .pattern-curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+}
+
+.container .inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .inside .first {
+  margin-left: 50px;
+}
+
+.container .inside .first p {
+  width: 670px;
+  margin-top: -30px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Inter;
+  margin-left: 20px;
+}
+
+.container .inside .first h3 {
+  color: white;
+  font-family: Inter;
+}
+
+.container .inside .first h3 small {
+  color: #babacf;
+}
+
+.container .inside .tanya img {
+  position: relative;
+  height: 335px;
+  width: 300px;
+  margin-top: -142px;
+  margin-left: -50px;
+  -webkit-box-shadow: 10px 10px 20px #ccc;
+  box-shadow: 10px 10px 20px #ccc;
+  border-radius: 5px;
+}
+
+.container .inside .tanya .navigation {
+  background-color: white;
+  height: 30px;
+  width: 70px;
+  margin-top: -25px;
+  margin-left: -25px;
+  border-radius: 20px;
+}
+
+.container .inside .tanya .navigation div {
+  height: 100%;
+  width: 100%;
+}
+
+.container .inside .tanya .navigation div img {
+  width: 10px;
+  height: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 440px) {
