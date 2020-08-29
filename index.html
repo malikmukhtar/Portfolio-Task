@@ -17,6 +17,23 @@
       <a href="#social">Social</a>
     </nav>
 
+    <nav class="menu">
+      <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+      <label class="menu-open-button" for="menu-open">
+       <span class="lines line-1"></span>
+       <span class="lines line-2"></span>
+       <span class="lines line-3"></span>
+     </label>
+   
+      <a href="#" class="menu-item blue"> <i class="fa fa-anchor"></i> </a>
+      <a href="#" class="menu-item green"> <i class="fa fa-coffee"></i> </a>
+      <a href="#" class="menu-item red"> <i class="fa fa-heart"></i> </a>
+      <a href="#" class="menu-item purple"> <i class="fa fa-microphone"></i> </a>
+      <a href="#" class="menu-item orange"> <i class="fa fa-star"></i> </a>
+      <a href="#" class="menu-item lightblue"> <i class="fa fa-diamond"></i> </a>
+   </nav>
+    
+
     <!-- Introduction Section -->
     <header id="welcome-section">
       <img src="images/malik-white.jpg" alt="malik-mukhtar" />
@@ -40,6 +57,7 @@
       </div>
     </main>
 
+    <!-- Testimonial Section -->
     <div class="container">
       <h1>Testimonial</h1>
       <img src="images/pattern-quotes.svg" alt="" class="quotes" style="z-index: -2;">
@@ -180,6 +198,7 @@
         </form>
       </div>
     </section>
+   
 
     <!-- Pre Footer -->
     <footer class="footer-pre">
@@ -188,10 +207,11 @@
           Want to Know the happenings in the Dev World <br />
           Subscribe to my NewsLetter
         </p>
-        <form name="contact" method="POST" data-netlify="true">
-          <input type="text" placeholder="e-mail" /><button type="button">
+        <form name="Subscribe" method="POST" data-netlify="true">
+          <input type="email" placeholder="e-mail" />
+          <button type="submit">
             Subscribe
-          </button>
+          </button >
         </form>
       </div>
     </footer>

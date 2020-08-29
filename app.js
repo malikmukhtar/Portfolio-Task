@@ -13,7 +13,7 @@ $("#navbar a").on("click", function (event) {
   }
 });
 
-//Slider Effect
+//Testimonial Slider Effect
 var slideIndex = 1;
 showSlides(slideIndex);
 
