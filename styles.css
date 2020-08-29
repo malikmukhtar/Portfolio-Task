@@ -4,7 +4,6 @@ body {
   font-family: "Baloo Tamma 2", cursive;
   /* background-color: red; */
   margin: 0px;
-  padding: 0px;
 }
 
 .menu {
@@ -443,6 +442,7 @@ footer .fa-heart {
     z-index: 1000;
     visibility: visible;
     position: sticky;
+    margin-left: 35px;
   }
 
   .menu-item i {
