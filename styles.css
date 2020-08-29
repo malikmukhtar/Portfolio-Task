@@ -222,6 +222,7 @@ section {
   margin-left: 2px;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .footer {
@@ -346,6 +347,10 @@ footer .fa-heart {
     /* margin-bottom: 10px; */
   }
 
+  nav {
+    background-color: transparent;
+  }
+
   #navbar {
     display: none;
   }
@@ -356,11 +361,12 @@ footer .fa-heart {
 
   .menu-item,
   .menu-open-button {
-    background: #eeeeee;
+    background: #002b37;
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    margin-left: -40px;
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: -50px;
     position: absolute;
     color: #ffffff;
     text-align: center;
@@ -431,6 +437,14 @@ footer .fa-heart {
     font-size: 16px;
     z-index: 1000;
     visibility: visible;
+    position: sticky;
+  }
+
+  .menu-item i {
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
   }
 
   /* .menu-item {
@@ -512,42 +526,42 @@ footer .fa-heart {
     transition-duration: 180ms;
     -webkit-transition-duration: 180ms;
     -webkit-transform: translate3d(0.08361px, -104.99997px, 0);
-    transform: translate3d(0.08361px, -104.99997px, 0);
+    transform: translate3d(42px, -40px, 0);
   }
 
   .menu-open:checked ~ .menu-item:nth-child(4) {
     transition-duration: 280ms;
     -webkit-transition-duration: 280ms;
     -webkit-transform: translate3d(90.9466px, -52.47586px, 0);
-    transform: translate3d(90.9466px, -52.47586px, 0);
+    transform: translate3d(60px, 0px, 0);
   }
 
   .menu-open:checked ~ .menu-item:nth-child(5) {
     transition-duration: 380ms;
     -webkit-transition-duration: 380ms;
     -webkit-transform: translate3d(90.9466px, 52.47586px, 0);
-    transform: translate3d(90.9466px, 52.47586px, 0);
+    transform: translate3d(42px, 45px, 0);
   }
 
   .menu-open:checked ~ .menu-item:nth-child(6) {
     transition-duration: 480ms;
     -webkit-transition-duration: 480ms;
     -webkit-transform: translate3d(0.08361px, 104.99997px, 0);
-    transform: translate3d(0.08361px, 104.99997px, 0);
+    transform: translate3d(1px, 62px, 0);
   }
 
-  .menu-open:checked ~ .menu-item:nth-child(7) {
+  /* .menu-open:checked ~ .menu-item:nth-child(7) {
     transition-duration: 580ms;
     -webkit-transition-duration: 580ms;
     -webkit-transform: translate3d(-90.86291px, 52.62064px, 0);
     transform: translate3d(-90.86291px, 52.62064px, 0);
-  }
+  } */
 
   .menu-open:checked ~ .menu-item:nth-child(8) {
     transition-duration: 680ms;
     -webkit-transition-duration: 680ms;
     -webkit-transform: translate3d(-91.03006px, -52.33095px, 0);
-    transform: translate3d(-91.03006px, -52.33095px, 0);
+    transform: translate3d(0px, -50.33095px, 0);
   }
 
   .menu-open:checked ~ .menu-item:nth-child(9) {
@@ -557,76 +571,18 @@ footer .fa-heart {
     transform: translate3d(-0.25084px, -104.9997px, 0);
   }
 
-  .blue {
-    background-color: #669ae1;
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+  .navy {
+    background-color: #002b37;
   }
 
-  .blue:hover {
-    color: #669ae1;
-    text-shadow: none;
-  }
-
-  .green {
-    background-color: #70cc72;
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  }
-
-  .green:hover {
-    color: #70cc72;
-    text-shadow: none;
-  }
-
-  .red {
-    background-color: #fe4365;
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  }
-
-  .red:hover {
-    color: #fe4365;
-    text-shadow: none;
-  }
-
-  .purple {
-    background-color: #c49cde;
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  }
-
-  .purple:hover {
-    color: #c49cde;
-    text-shadow: none;
-  }
-
-  .orange {
-    background-color: #fc913a;
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  }
-
-  .orange:hover {
-    color: #fc913a;
-    text-shadow: none;
-  }
-
-  .lightblue {
-    background-color: #62c2e4;
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
-  }
-
-  .lightblue:hover {
-    color: #62c2e4;
-    text-shadow: none;
+  .navy:hover {
+    color: #002b37;
   }
 
   .credit {
     margin: 24px 20px 120px 0;
     text-align: right;
-    color: #eeeeee;
+    color: red;
   }
 
   .credit a {
@@ -650,7 +606,7 @@ footer .fa-heart {
     font-size: 10px;
     font-weight: 200;
     text-align: justify;
-    color: salmon;
+    color: white;
   }
 
   .container .inside .tanya img {
