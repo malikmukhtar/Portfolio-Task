@@ -2,8 +2,9 @@
 
 body {
   font-family: "Baloo Tamma 2", cursive;
-  background-color: #fcf0cc;
+  /* background-color: red; */
   margin: 0px;
+  padding: 0px;
 }
 
 .menu {
@@ -339,12 +340,16 @@ footer .fa-heart {
 }
 
 @media (max-width: 440px) {
+  header {
+    margin-top: -80px;
+    height: max-content;
+  }
+
   header img {
     border-radius: 50%;
+
     height: 100px;
     width: 100px;
-    /* margin-top: 30px; */
-    /* margin-bottom: 10px; */
   }
 
   nav {
