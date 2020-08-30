@@ -381,6 +381,9 @@ footer .fa-heart {
 }
 
 @media (max-width: 440px) {
+  body {
+    width: 100%;
+  }
   header {
     margin-top: -80px;
     height: max-content;
@@ -406,13 +409,12 @@ footer .fa-heart {
   }
 
   .mansory {
-    max-width: 100%;
+    width: 100%;
     padding: 1rem;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 100px 100px 100px 60px;
     grid-template-rows: 50px 50px 50px;
-    /* grid-gap: 1rem; */
   }
 
   .mansory div img {
